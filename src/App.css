@@ -29,10 +29,8 @@
 .meme {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-
+    justify-content: center;
     
-
 
 }
 
@@ -114,4 +112,21 @@ button {
 
 .top {
     top: 0;
+}
+
+@media(max-width:670px){
+    .meme{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    button{
+        width:480px;
+        font-size:25px ;
+    }
+    
+
+
+
 }

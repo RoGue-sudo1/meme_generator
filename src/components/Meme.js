@@ -45,7 +45,7 @@ export default function Meme() {
     return (
         <main>
             <div className="meme">
-                <form >
+                <form className="meme-form">
                 
                     <div className="input-holder">
                         <input
